@@ -1,0 +1,24 @@
+# Created at 2018-10-24T19:22:01.164
+[SUREFIRE] std/in stream corrupted
+java.io.IOException: Command NOOP unexpectedly read Void data with length 4.
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:130)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-10-24T19:25:44.429
+Unexpected IOException: 8,1,com.momsbelief3.scripts.LoginTest,setUp(com.momsbelief3.scripts.LoginTest),null,null,null,null,LoginTest>BaseLib.setUp:25 \00BB InputMismatch,java.util.InputMismatchException\000A
+
+
+# Created at 2018-10-24T19:25:44.431
+Unexpected IOException: 9,1,com.momsbelief3.scripts.LoginTest,validLogin(com.momsbelief3.scripts.LoginTest),null,null,null
+
+
+# Created at 2018-10-24T19:25:44.434
+Unexpected IOException: 9,1,com.momsbelief3.scripts.LoginTest,tearDown(com.momsbelief3.scripts.LoginTest),null,null,null
+
+
+# Created at 2018-10-24T19:25:44.846
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
